@@ -8,9 +8,6 @@ app.get('/', (req, res) => {
   res.send(absum.toString());
 });
 
-
-
-
 app.listen(8090, () => {
-  console.log('Your app listening on port 3000!');
+  console.log('App listening on port 8090!');
 });
